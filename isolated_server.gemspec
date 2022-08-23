@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ben@zendesk.com", "gabe@zendesk.com"]
   spec.description   = %q{A small library that allows you to easily spin up new local mysql servers for testing purposes.}
   spec.summary       = %q{A small library that allows you to easily spin up new local mysql servers for testing purposes.}
-  spec.homepage      = "http://github.com/gabetax/isolated_server"
+  spec.homepage      = "http://github.com/zendesk/isolated_server"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
